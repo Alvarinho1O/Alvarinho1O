@@ -6,7 +6,7 @@
   <img src="assets/hola.svg" width="100%" alt="Hola, soy Álvaro. Una mano saluda con movimiento." />
 </p>
 
-Soy estudiante de **Ingeniería Civil Informática en la Pontificia Universidad Católica de Valparaíso**. Me gusta entender cómo funcionan las cosas, ordenar problemas y construir software que aporte una solución útil.
+Soy estudiante de **quinto año de Ingeniería Civil Informática en la Pontificia Universidad Católica de Valparaíso**. Me gusta entender cómo funcionan las cosas, ordenar problemas y construir software que aporte una solución útil.
 
 Tengo experiencia en **levantamiento y modelamiento de procesos**, y me interesa seguir profundizando en **análisis de datos y optimización**. Me motiva conectar esas áreas: comprender un problema, trabajar con la información y convertirla en una solución.
 
