@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="144" viewBox="0 0 1000 144" role="img" aria-labelledby="title desc">
+<title id="title">Fútbol y código — ¡Hala Madrid!</title><desc id="desc">Un balón brillante circula entre cuatro jugadores siguiendo una jugada táctica. Fútbol y ganas de seguir aprendiendo. ¡Hala Madrid!</desc>
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#142c5a"/><stop offset=".5" stop-color="#0b1831"/><stop offset="1" stop-color="#070d18"/></linearGradient>
+  <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#fff1b5"/><stop offset=".48" stop-color="#e1bd68"/><stop offset="1" stop-color="#9f7628"/></linearGradient>
+  <linearGradient id="blueGlow" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#80b8ff"/><stop offset="1" stop-color="#3868d6"/></linearGradient>
+  <radialGradient id="spot"><stop stop-color="#4d83eb" stop-opacity=".34"/><stop offset="1" stop-color="#4d83eb" stop-opacity="0"/></radialGradient>
+  <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse"><path d="M28 0H0V28" fill="none" stroke="#8db3ee" stroke-opacity=".045"/></pattern>
+  <filter id="glow" x="-80%" y="-80%" width="260%" height="260%"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  <filter id="softGlow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="2.5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  <filter id="shadow" x="-20%" y="-30%" width="140%" height="170%"><feDropShadow dx="0" dy="8" stdDeviation="10" flood-color="#000" flood-opacity=".45"/></filter>
+</defs>
+<g font-family="Segoe UI, Arial, sans-serif">
+<rect x="1" y="1" width="998" height="142" rx="20" fill="url(#bg)" stroke="#304a73"/><rect x="1" y="1" width="998" height="142" rx="20" fill="url(#grid)"/>
+<ellipse cx="824" cy="72" rx="190" ry="104" fill="url(#spot)"/>
+<path d="M1 140h998" stroke="url(#gold)" stroke-width="2" opacity=".75" filter="url(#softGlow)"/>
+<text x="29" y="54" fill="#f4f7fd" font-size="22" font-weight="700">También se juega fuera del código.</text>
+<text x="29" y="88" fill="#b7c5da" font-size="17">Fútbol y ganas de seguir aprendiendo.</text>
+<text x="29" y="116" fill="#e8cb78" font-size="15" font-weight="700" letter-spacing="1.4">¡HALA MADRID!</text>
+<path d="M652 105C690 105 698 39 747 39S808 108 856 91 905 35 963 35" fill="none" stroke="#e5c66f" stroke-width="2.4" stroke-dasharray="5 7" opacity=".85" filter="url(#softGlow)"/>
+<g fill="#0d213d" stroke="#78a9ff" stroke-width="2" filter="url(#softGlow)"><circle cx="652" cy="105" r="8"/><circle cx="747" cy="39" r="8"/><circle cx="856" cy="91" r="8"/><circle cx="963" cy="35" r="8" stroke="#e5c66f"/></g>
+<g transform="translate(652 105)"><g filter="url(#glow)"><circle r="9" fill="#fff7d5" stroke="#d1a944" stroke-width="1.5"/><path d="M-3-5l6 0 3 4-3 5h-6l-3-5z" fill="#14264a"/><animateMotion dur="5.5s" repeatCount="indefinite" keyPoints="0;0;.33;.33;.66;.66;1" keyTimes="0;.12;.34;.43;.65;.74;1" path="M0 0C38 0 46-66 95-66S156 3 204-14 253-70 311-70"/></g></g>
+</g></svg>
