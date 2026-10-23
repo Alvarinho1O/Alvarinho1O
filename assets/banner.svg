@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="380" viewBox="0 0 1000 380" role="img" aria-labelledby="title desc">
+<title id="title">Álvaro Del Pino — Desarrollador de software</title><desc id="desc">Software, procesos y datos. Estudiante de Ingeniería Civil Informática en la PUCV, Chile. Una pizarra táctica iluminada muestra una pelota pasando entre jugadores.</desc>
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#142c5a"/><stop offset=".5" stop-color="#0b1831"/><stop offset="1" stop-color="#070d18"/></linearGradient>
+  <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#fff1b5"/><stop offset=".48" stop-color="#e1bd68"/><stop offset="1" stop-color="#9f7628"/></linearGradient>
+  <linearGradient id="blueGlow" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#80b8ff"/><stop offset="1" stop-color="#3868d6"/></linearGradient>
+  <radialGradient id="spot"><stop stop-color="#4d83eb" stop-opacity=".34"/><stop offset="1" stop-color="#4d83eb" stop-opacity="0"/></radialGradient>
+  <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse"><path d="M28 0H0V28" fill="none" stroke="#8db3ee" stroke-opacity=".045"/></pattern>
+  <filter id="glow" x="-80%" y="-80%" width="260%" height="260%"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  <filter id="softGlow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="2.5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  <filter id="shadow" x="-20%" y="-30%" width="140%" height="170%"><feDropShadow dx="0" dy="8" stdDeviation="10" flood-color="#000" flood-opacity=".45"/></filter>
+</defs>
+<g font-family="Segoe UI, Arial, sans-serif">
+<rect x="1" y="1" width="998" height="378" rx="26" fill="url(#bg)" stroke="#395a91" stroke-opacity=".7"/>
+<rect x="1" y="1" width="998" height="378" rx="26" fill="url(#grid)"/>
+<ellipse cx="812" cy="185" rx="250" ry="220" fill="url(#spot)"/>
+<path d="M0 4h1000" stroke="url(#gold)" stroke-width="4" opacity=".9" filter="url(#softGlow)"/>
+<g opacity=".55"><circle cx="70" cy="55" r="1.5" fill="#fff"/><circle cx="267" cy="27" r="1" fill="#fff"/><circle cx="484" cy="72" r="1.2" fill="#e7d69c"/><circle cx="573" cy="28" r="1" fill="#fff"/></g>
+<path d="M43 51h68" stroke="url(#gold)" stroke-width="3" filter="url(#softGlow)"/>
+<text x="126" y="57" fill="#f2d98c" font-size="14" letter-spacing="3">SOFTWARE · PROCESOS · DATOS</text>
+<text x="43" y="137" fill="#ffffff" font-size="54" font-weight="750" filter="url(#softGlow)">Álvaro Del Pino</text>
+<text x="45" y="183" fill="#d9e7ff" font-size="27">Desarrollador de software</text>
+<text x="45" y="232" fill="#aabbd7" font-size="20">Leo el juego, entiendo el proceso</text>
+<text x="45" y="260" fill="#aabbd7" font-size="20">y construyo la solución.</text>
+<g filter="url(#shadow)"><rect x="43" y="307" width="285" height="42" rx="21" fill="#142a4b" stroke="#6485bd" stroke-opacity=".65"/><rect x="343" y="307" width="94" height="42" rx="21" fill="#142a4b" stroke="#6485bd" stroke-opacity=".65"/></g>
+<text x="63" y="333" fill="#eef4ff" font-size="14" letter-spacing=".5">ING. CIVIL INFORMÁTICA · PUCV</text>
+<text x="365" y="333" fill="#e9d491" font-size="14">CHILE</text>
+
+<!-- Pizarra táctica -->
+<g transform="translate(648 39)" filter="url(#shadow)">
+  <rect width="310" height="300" rx="18" fill="#081426" fill-opacity=".88" stroke="#5175ad" stroke-opacity=".72"/>
+  <rect x="13" y="13" width="284" height="274" rx="10" fill="none" stroke="#a8c5ee" stroke-opacity=".30" stroke-width="1.5"/>
+  <path d="M13 150h284" stroke="#a8c5ee" stroke-opacity=".30" stroke-width="1.5"/>
+  <circle cx="155" cy="150" r="42" fill="none" stroke="#a8c5ee" stroke-opacity=".30" stroke-width="1.5"/>
+  <circle cx="155" cy="150" r="2.5" fill="#a8c5ee" fill-opacity=".5"/>
+  <path d="M87 13v54h136V13M120 13v25h70V13M87 287v-54h136v54M120 287v-25h70v25" fill="none" stroke="#a8c5ee" stroke-opacity=".30" stroke-width="1.5"/>
+  <path d="M64 242C88 225 98 198 113 181S151 154 175 143 220 111 238 71" fill="none" stroke="#edcf76" stroke-width="2.3" stroke-dasharray="5 7" opacity=".8" filter="url(#softGlow)"/>
+  <path d="M228 79l10-8 2 13" fill="none" stroke="#edcf76" stroke-width="2"/>
+  <!-- jugadores -->
+  <g fill="#0c1d37" stroke-width="2.4" filter="url(#softGlow)">
+    <circle cx="64" cy="242" r="10" stroke="#77a7ff"><animate attributeName="r" values="10;13;10" dur="6s" begin="0s" repeatCount="indefinite"/></circle>
+    <circle cx="113" cy="181" r="10" stroke="#77a7ff"><animate attributeName="r" values="10;10;13;10;10" keyTimes="0;.18;.28;.38;1" dur="6s" repeatCount="indefinite"/></circle>
+    <circle cx="175" cy="143" r="10" stroke="#77a7ff"><animate attributeName="r" values="10;10;13;10;10" keyTimes="0;.42;.52;.62;1" dur="6s" repeatCount="indefinite"/></circle>
+    <circle cx="238" cy="71" r="10" stroke="#f1d37e"><animate attributeName="r" values="10;10;14;10" keyTimes="0;.72;.86;1" dur="6s" repeatCount="indefinite"/></circle>
+    <circle cx="239" cy="221" r="9" stroke="#7386a7" opacity=".65"/><circle cx="74" cy="102" r="9" stroke="#7386a7" opacity=".65"/><circle cx="180" cy="245" r="9" stroke="#7386a7" opacity=".65"/>
+  </g>
+  <!-- rivales que siguen la marca -->
+  <g fill="#2a1524" stroke="#f27a8a" stroke-width="2" opacity=".9" filter="url(#softGlow)">
+    <circle cx="83" cy="225" r="7"><animate attributeName="cx" values="83;79;83" dur="3s" repeatCount="indefinite"/><animate attributeName="cy" values="225;231;225" dur="3s" repeatCount="indefinite"/></circle>
+    <circle cx="137" cy="193" r="7"><animate attributeName="cx" values="137;131;137" dur="3.4s" repeatCount="indefinite"/><animate attributeName="cy" values="193;187;193" dur="3.4s" repeatCount="indefinite"/></circle>
+    <circle cx="193" cy="160" r="7"><animate attributeName="cx" values="193;188;193" dur="2.8s" repeatCount="indefinite"/><animate attributeName="cy" values="160;165;160" dur="2.8s" repeatCount="indefinite"/></circle>
+    <circle cx="219" cy="84" r="7"><animate attributeName="cx" values="219;224;219" dur="3.2s" repeatCount="indefinite"/><animate attributeName="cy" values="84;88;84" dur="3.2s" repeatCount="indefinite"/></circle>
+  </g>
+  <!-- pelota que completa la jugada -->
+  <g transform="translate(64 242)"><g filter="url(#glow)">
+    <circle r="8" fill="#fff7cf" stroke="#d3aa48" stroke-width="1.5"/>
+    <path d="M-2-4l4 0 2 3-2 4h-4l-2-4z" fill="#14264a"/>
+    <animateMotion dur="6s" repeatCount="indefinite" keyPoints="0;0;.24;.24;.52;.52;.78;.78;1" keyTimes="0;.09;.28;.34;.52;.58;.78;.84;1" calcMode="linear" path="M0 0C24-17 34-44 49-61S87-88 111-99 156-131 174-171"/>
+  </g></g>
+  <g transform="translate(21 23)"><circle r="4" fill="#edcf76" filter="url(#glow)"><animate attributeName="opacity" values=".25;1;.25" dur="2.2s" repeatCount="indefinite"/></circle><text x="12" y="5" fill="#8fa7ca" font-size="11" letter-spacing="1.5">JUGADA EN CURSO</text></g>
+</g>
+</g></svg>
