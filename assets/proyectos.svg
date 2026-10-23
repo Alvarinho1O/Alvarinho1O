@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="330" viewBox="0 0 1000 330" role="img" aria-labelledby="title desc">
+<title id="title">Proyectos en desarrollo</title><desc id="desc">Seminario de distritaje de bicicletas y una plataforma de fútbol con pichangas, fichajes, pizarras, partidos y minijuegos.</desc>
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#142c5a"/><stop offset=".5" stop-color="#0b1831"/><stop offset="1" stop-color="#070d18"/></linearGradient>
+  <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#fff1b5"/><stop offset=".48" stop-color="#e1bd68"/><stop offset="1" stop-color="#9f7628"/></linearGradient>
+  <linearGradient id="blueGlow" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#80b8ff"/><stop offset="1" stop-color="#3868d6"/></linearGradient>
+  <radialGradient id="spot"><stop stop-color="#4d83eb" stop-opacity=".34"/><stop offset="1" stop-color="#4d83eb" stop-opacity="0"/></radialGradient>
+  <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse"><path d="M28 0H0V28" fill="none" stroke="#8db3ee" stroke-opacity=".045"/></pattern>
+  <filter id="glow" x="-80%" y="-80%" width="260%" height="260%"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  <filter id="softGlow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="2.5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  <filter id="shadow" x="-20%" y="-30%" width="140%" height="170%"><feDropShadow dx="0" dy="8" stdDeviation="10" flood-color="#000" flood-opacity=".45"/></filter>
+</defs>
+<g font-family="Segoe UI, Arial, sans-serif">
+<rect x="1" y="1" width="998" height="328" rx="22" fill="url(#bg)" stroke="#304a73"/><rect x="1" y="1" width="998" height="328" rx="22" fill="url(#grid)"/>
+<text x="28" y="40" fill="#e8ca76" font-size="12" letter-spacing="2.5">PROYECTOS EN DESARROLLO</text><path d="M245 35h727" stroke="#36547f"/>
+<g transform="translate(24 61)" filter="url(#shadow)"><rect width="463" height="240" rx="18" fill="#0b1729" stroke="#395984"/>
+  <circle cx="72" cy="75" r="43" fill="url(#spot)"/>
+  <g transform="translate(36 40)"><g fill="none" stroke="url(#gold)" stroke-width="3"><animateTransform attributeName="transform" type="translate" values="0 0;4 -2;0 0" dur="1.1s" repeatCount="indefinite"/>
+    <circle cx="25" cy="35" r="16"/><circle cx="66" cy="35" r="16"/><path d="M25 35l15-25h18l8 25M40 10l14 25H25M42 10l-8-12M48 22h20"/>
+    <g stroke="#87b1f7" stroke-width="1.4"><path d="M25 19v32M9 35h32M14 24l22 22M14 46l22-22"><animateTransform attributeName="transform" type="rotate" from="0 25 35" to="360 25 35" dur="1.5s" repeatCount="indefinite"/></path></g>
+    <g stroke="#87b1f7" stroke-width="1.4"><path d="M66 19v32M50 35h32M55 24l22 22M55 46l22-22"><animateTransform attributeName="transform" type="rotate" from="0 66 35" to="360 66 35" dur="1.5s" repeatCount="indefinite"/></path></g>
+  </g></g>
+  <text x="26" y="137" fill="#f4f7fd" font-size="23" font-weight="700">Distritaje de bicicletas</text>
+  <text x="26" y="171" fill="#b8c6db" font-size="16">Distritaje de zonas</text><text x="26" y="195" fill="#b8c6db" font-size="16">con Python y AMPL.</text>
+  <rect x="26" y="211" width="197" height="24" rx="12" fill="#152b4c" stroke="#4f72a7"/><text x="40" y="228" fill="#e9d38e" font-size="11" letter-spacing="1.2">SEMINARIO · PRIVADO</text>
+</g>
+<g transform="translate(513 61)" filter="url(#shadow)"><rect width="463" height="240" rx="18" fill="#0b1729" stroke="#395984"/>
+  <circle cx="72" cy="75" r="43" fill="url(#spot)"/>
+  <g transform="translate(34 37)">
+    <rect x="5" y="8" width="68" height="66" rx="14" fill="#10294d" stroke="url(#gold)" stroke-width="3"/>
+    <rect x="14" y="17" width="50" height="48" rx="5" fill="none" stroke="#86aff2" stroke-width="1.5"/><path d="M39 17v48" stroke="#86aff2" stroke-width="1.5"/><circle cx="39" cy="41" r="10" fill="none" stroke="#86aff2" stroke-width="1.5"/>
+    <circle cx="39" cy="41" r="6" fill="#f5e3a1" stroke="#c89f42" filter="url(#glow)"/><path d="M37 37l5 1 1 5-4 3-5-3 1-5z" fill="#18315a"/>
+    <g><circle cx="39" cy="2" r="4" fill="#79aaff" filter="url(#glow)"/><circle cx="76" cy="41" r="4" fill="#e6c66c" filter="url(#glow)"/><circle cx="39" cy="80" r="4" fill="#79aaff" filter="url(#glow)"/><circle cx="2" cy="41" r="4" fill="#e6c66c" filter="url(#glow)"/><animateTransform attributeName="transform" type="rotate" from="0 39 41" to="360 39 41" dur="7s" repeatCount="indefinite"/></g>
+  </g>
+  <text x="26" y="137" fill="#f4f7fd" font-size="23" font-weight="700">Plataforma de fútbol</text>
+  <text x="26" y="171" fill="#b8c6db" font-size="16">Pichangas, fichajes, pizarras 2D/3D,</text><text x="26" y="195" fill="#b8c6db" font-size="16">partidos en vivo y minijuegos.</text>
+  <rect x="26" y="211" width="205" height="24" rx="12" fill="#152b4c" stroke="#4f72a7"/><text x="40" y="228" fill="#e9d38e" font-size="11" letter-spacing="1.2">PRODUCTO · EN DISEÑO</text>
+</g>
+</g></svg>
