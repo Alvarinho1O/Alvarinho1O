@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="204" viewBox="0 0 1000 204" role="img" aria-labelledby="title desc">
+<title id="title">Mis áreas de interés</title><desc id="desc">Desarrollo de software; levantamiento y modelamiento de procesos con BPMN y Bizagi; interés en profundizar en análisis de datos con Python y SQL.</desc>
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#142c5a"/><stop offset=".5" stop-color="#0b1831"/><stop offset="1" stop-color="#070d18"/></linearGradient>
+  <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#fff1b5"/><stop offset=".48" stop-color="#e1bd68"/><stop offset="1" stop-color="#9f7628"/></linearGradient>
+  <linearGradient id="blueGlow" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#80b8ff"/><stop offset="1" stop-color="#3868d6"/></linearGradient>
+  <radialGradient id="spot"><stop stop-color="#4d83eb" stop-opacity=".34"/><stop offset="1" stop-color="#4d83eb" stop-opacity="0"/></radialGradient>
+  <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse"><path d="M28 0H0V28" fill="none" stroke="#8db3ee" stroke-opacity=".045"/></pattern>
+  <filter id="glow" x="-80%" y="-80%" width="260%" height="260%"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  <filter id="softGlow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="2.5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  <filter id="shadow" x="-20%" y="-30%" width="140%" height="170%"><feDropShadow dx="0" dy="8" stdDeviation="10" flood-color="#000" flood-opacity=".45"/></filter>
+</defs>
+<g font-family="Segoe UI, Arial, sans-serif">
+<rect x="1" y="1" width="998" height="202" rx="22" fill="url(#bg)" stroke="#304a73"/>
+<rect x="1" y="1" width="998" height="202" rx="22" fill="url(#grid)"/>
+<g transform="translate(16 16)" filter="url(#shadow)"><rect width="306" height="170" rx="18" fill="#0c1729" stroke="#36547f"/>
+<circle cx="68" cy="84" r="45" fill="url(#spot)"/><g fill="none" stroke="url(#gold)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+<path d="M53 72L39 84l14 12"><animateTransform attributeName="transform" type="translate" values="0 0;-7 0;0 0" dur="2.4s" repeatCount="indefinite"/></path>
+<path d="M83 72l14 12-14 12"><animateTransform attributeName="transform" type="translate" values="0 0;7 0;0 0" dur="2.4s" repeatCount="indefinite"/></path>
+<path d="M74 64L61 104"><animate attributeName="stroke-opacity" values=".55;1;.55" dur="1.6s" repeatCount="indefinite"/></path></g>
+<text x="24" y="29" fill="#e8ca76" font-size="12" letter-spacing="2.4">01</text>
+<text x="127" y="57" fill="#f4f7fd" font-size="16" font-weight="700" letter-spacing=".8">DESARROLLO</text>
+<text x="127" y="79" fill="#f4f7fd" font-size="16" font-weight="700" letter-spacing=".8">DE SOFTWARE</text>
+<text x="127" y="109" fill="#b9c8df" font-size="14">Convertir ideas</text><text x="127" y="130" fill="#b9c8df" font-size="14">en soluciones.</text>
+<path d="M127 143h139" stroke="#4b6c9d" stroke-opacity=".65"/><circle cy="143" r="3.5" fill="#e5c66f" filter="url(#glow)"><animate attributeName="cx" values="127;266;127" dur="4s" begin="0s" repeatCount="indefinite"/></circle></g><g transform="translate(338 16)" filter="url(#shadow)"><rect width="306" height="170" rx="18" fill="#0c1729" stroke="#36547f"/>
+<circle cx="68" cy="84" r="45" fill="url(#spot)"/><g><animateTransform attributeName="transform" type="rotate" from="0 68 86" to="360 68 86" dur="7s" repeatCount="indefinite"/>
+<g fill="#102b50" stroke="url(#gold)" stroke-width="3"><circle cx="49" cy="76" r="8"/><circle cx="86" cy="76" r="8"/><circle cx="68" cy="104" r="8"/></g><path d="M57 79l21 0M53 83l11 15M82 83L72 98" stroke="#85adf2" stroke-width="2"/></g>
+<text x="24" y="29" fill="#e8ca76" font-size="12" letter-spacing="2.4">02</text>
+<text x="127" y="57" fill="#f4f7fd" font-size="16" font-weight="700" letter-spacing=".8">LEVANTAMIENTO</text>
+<text x="127" y="79" fill="#f4f7fd" font-size="16" font-weight="700" letter-spacing=".8">DE PROCESOS</text>
+<text x="127" y="109" fill="#b9c8df" font-size="14">Entender, modelar</text><text x="127" y="130" fill="#b9c8df" font-size="14">y proponer mejoras.</text>
+<path d="M127 143h139" stroke="#4b6c9d" stroke-opacity=".65"/><circle cy="143" r="3.5" fill="#e5c66f" filter="url(#glow)"><animate attributeName="cx" values="127;266;127" dur="4s" begin="1s" repeatCount="indefinite"/></circle></g><g transform="translate(660 16)" filter="url(#shadow)"><rect width="306" height="170" rx="18" fill="#0c1729" stroke="#36547f"/>
+<circle cx="68" cy="84" r="45" fill="url(#spot)"/><g fill="url(#gold)"><rect x="43" y="88" width="11" height="16"><animate attributeName="y" values="88;72;88" dur="2.2s" repeatCount="indefinite"/><animate attributeName="height" values="16;32;16" dur="2.2s" repeatCount="indefinite"/></rect>
+<rect x="61" y="70" width="11" height="34"><animate attributeName="y" values="70;88;70" dur="2.6s" repeatCount="indefinite"/><animate attributeName="height" values="34;16;34" dur="2.6s" repeatCount="indefinite"/></rect>
+<rect x="79" y="57" width="11" height="47"><animate attributeName="y" values="57;67;57" dur="1.9s" repeatCount="indefinite"/><animate attributeName="height" values="47;37;47" dur="1.9s" repeatCount="indefinite"/></rect></g><path d="M39 107h57" stroke="#85adf2" stroke-width="2"/>
+<text x="24" y="29" fill="#e8ca76" font-size="12" letter-spacing="2.4">03</text>
+<text x="127" y="57" fill="#f4f7fd" font-size="16" font-weight="700" letter-spacing=".8">ANÁLISIS</text>
+<text x="127" y="79" fill="#f4f7fd" font-size="16" font-weight="700" letter-spacing=".8">DE DATOS</text>
+<text x="127" y="109" fill="#b9c8df" font-size="14">Encontrar señales</text><text x="127" y="130" fill="#b9c8df" font-size="14">para decidir.</text>
+<path d="M127 143h139" stroke="#4b6c9d" stroke-opacity=".65"/><circle cy="143" r="3.5" fill="#e5c66f" filter="url(#glow)"><animate attributeName="cx" values="127;266;127" dur="4s" begin="2s" repeatCount="indefinite"/></circle></g></g></svg>
